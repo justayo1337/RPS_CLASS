@@ -1,0 +1,24 @@
+#rock paper scissors
+import random
+
+class RockPaperScissors:
+    
+    def __init__(self):
+        self.user_points = 0
+        self.cpu_points = 0
+        self.options = ['rock','paper','scissors']
+        self.results_dictionary = {('rock','rock'): 'Tie', ('rock','paper'): 'Lose', ('rock','scissors') : 'Win',\
+                ('paper','rock'): 'Win', ('paper','paper'): 'Tie', ('paper','scissors') : 'Lose',\
+                ('scissors','rock'): 'Lose', ('scissors','paper'): 'Win', ('scissors','scissors'): 'Tie'}
+        self.playing = True
+        
+        self.run()
+        
+    def run(self):
+        print("welcome to rock paper scissors!")
+        while playing:
+            #your code here. It can be done in 11 lines
+                
+game = RockPaperScissors()
+game.run()
+        
